@@ -1,0 +1,1 @@
+INSERT INTO aluno (Nome, RA, Idade) VALUES ('ANA' , 'R980', 23 );

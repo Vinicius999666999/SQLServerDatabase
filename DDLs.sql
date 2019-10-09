@@ -29,3 +29,6 @@ ALTER TABLE matéria ADD Teste VARCHAR(2);
 /*Excluir coluno*/
 ALTER TABLE matéria DROP COLUMN Teste;
 
+/*para adicionar uma chave estrangeira */
+	Idcurso INT FOREIGN KEY REFERENCES curso(Idcurso);
+
